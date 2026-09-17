@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Soft Knot | Handmade With Love</title>
+
+    <link rel="stylesheet" href="sk.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+
+<header class="navbar">
+
+    <div class="nav-container">
+
+        <a href="#" class="logo">
+            <span class="logo-icon">🧶</span>
+            <span>Soft<span>Knot</span></span>
+        </a>
+
+        <nav class="nav-links">
+            <a href="#home" class="active">Home</a>
+            <a href="#shop">Shop</a>
+            <a href="#collections">Collections</a>
+            <a href="#story">Our Story</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="nav-actions">
+
+            <button class="icon-btn" id="searchBtn" aria-label="Search">
+                🔍
+            </button>
+
+            <button class="cart-btn" id="cartBtn">
+                🛍
+                <span id="cartCount">0</span>
+            </button>
+
+            <button class="menu-btn" id="menuBtn">
+                ☰
+            </button>
+
+        </div>
+
+    </div>
+
+</header>
+
+
+<!-- ================= SEARCH ================= -->
+
+<div class="search-box" id="searchBox">
+
+    <div class="search-inner">
+
+        <input
+            type="text"
+            id="searchInput"
+            placeholder="Search handmade products..."
+        >
+
+        <button id="closeSearch">✕</button>
+
+    </div>
+
+</div>
+
+
+<!-- ================= HERO ================= -->
+
+<section class="hero" id="home">
+
+    <div class="hero-container">
+
+        <div class="hero-content">
+
+            <div class="small-label">
+                ✦ HANDMADE WITH LOVE
+            </div>
+
+            <h1>
+                Little knots.
+                <br>
+                <span>Big warmth.</span>
+            </h1>
+
+            <p>
+                Beautiful handmade wool crafts created slowly,
+                thoughtfully, and with lots of love.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#shop" class="primary-btn">
+                    Explore Collection
+                    <span>→</span>
+                </a>
+
+                <a href="#story" class="secondary-btn">
+                    Our Story
+                </a>
+
+            </div>
+
+            <div class="hero-info">
+
+                <div>
+                    <strong>100%</strong>
+                    <span>Handmade</span>
+                </div>
+
+                <div>
+                    <strong>♡</strong>
+                    <span>Made with care</span>
+                </div>
+
+                <div>
+                    <strong>✦</strong>
+                    <span>Unique designs</span>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- HERO ART -->
+
+        <div class="hero-art">
+
+            <div class="blob blob-one"></div>
+            <div class="blob blob-two"></div>
+
+            <div class="yarn-ball">
+                <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnm8i5sCn0Fg00_6fmzcuN6btkWi9plsHRIoaaTPMvuQ&s=10"
+                    alt="Handmade Wool Pom Pom Wall Hanging"
+                >
+            </div>
+
+            <div class="floating-card card-one">
+                <span>♡</span>
+                Handmade
+            </div>
+
+            <div class="floating-card card-two">
+                ✦ Cozy & Cute
+            </div>
+
+            <div class="thread thread-one"></div>
+            <div class="thread thread-two"></div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CATEGORIES ================= -->
+
+<section class="categories" id="collections">
+
+    <div class="section-heading">
+
+        <div>
+            <span class="eyebrow">SHOP BY CATEGORY</span>
+            <h2>Made for your <em>little moments</em></h2>
+        </div>
+
+        <p>
+            From colorful handmade accessories to charming
+            home pieces, find something made especially for you.
+        </p>
+
+    </div>
+
+
+    <div class="category-grid">
+
+        <div class="category-card category-pink" data-category="bags">
+
+            <div class="category-image">
+                <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdDhcf4hqyLfnhjQMK4qu9ftesp5T0UPNrDmD0Cii4LA&s=10"
+                    alt="Handmade Macrame Bag"
+                >
+            </div>
+
+            <div>
+                <span>01</span>
+                <h3>Handmade Bags</h3>
+                <p>Colorful & stylish</p>
+            </div>
+
+            <button>→</button>
+
+        </div>
+
+
+        <div class="category-card category-green" data-category="decor">
+
+            <div class="category-image">
+                <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpvH13Jqembv5f09sDNvOOikVaTVGhGv12TFI_dvH02A&s=10"
+                    alt="Crochet Flower Pot"
+                >
+            </div>
+
+            <div>
+                <span>02</span>
+                <h3>Crochet Decor</h3>
+                <p>Brighten your corners</p>
+            </div>
+
+            <button>→</button>
+
+        </div>
+
+
+        <div class="category-card category-yellow" data-category="accessories">
+
+            <div class="category-image">
+                <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT62baVuh5CNWAmF-OxFrDcDeB7AhccWAogYC_sP_hMuA&s=10"
+                    alt="Handmade Wool Slippers"
+                >
+            </div>
+
+            <div>
+                <span>03</span>
+                <h3>Cozy Accessories</h3>
+                <p>Soft & comfortable</p>
+            </div>
+
+            <button>→</button>
+
+        </div>
+
+
+        <div class="category-card category-blue" data-category="gifts">
+
+            <div class="category-image">
+                <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsCZxmHZFND2Oxx2ZdzGvcHtLxjAEbTB-hF05RRrm2eg&s=10"
+                    alt="Colorful Handmade Tassel Hanging"
+                >
+            </div>
+
+            <div>
+                <span>04</span>
+                <h3>Gift Ideas</h3>
+                <p>Made to share</p>
+            </div>
+
+            <button>→</button>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= SHOP ================= -->
+
+<section class="shop" id="shop">
+
+    <div class="shop-heading">
+
+        <div>
+            <span class="eyebrow">OUR FAVORITES</span>
+            <h2>Handmade <em>just for you</em></h2>
+        </div>
+
+        <div class="filters">
+
+            <button class="filter active" data-filter="all">
+                All
+            </button>
+
+            <button class="filter" data-filter="bags">
+                Bags
+            </button>
+
+            <button class="filter" data-filter="decor">
+                Decor
+            </button>
+
+            <button class="filter" data-filter="accessories">
+                Accessories
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <div class="product-grid" id="productGrid">
+
+
+        <!-- PRODUCT 1 -->
+
+        <article class="product-card" data-category="decor">
+
+            <div class="product-image pink-product">
+
+                <button class="wishlist">♡</button>
+
+                <div class="product-emoji">
+                    <img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZbUCzRGrU1aTR38XvX9nqh2g0nZaBRRHAPIwX66P-fA&s"
+                        alt="Crochet White Flower"
+                    >
+                </div>
+
+                <span class="product-tag">
+                    HANDMADE
+                </span>
+
+            </div>
+
+            <div class="product-info">
+
+                <div class="product-category">
+                    HOME DECOR
+                </div>
+
+                <h3>Handmade Crochet Daisy</h3>
+
+                <div class="product-bottom">
+
+                    <strong>₹399</strong>
+
+                    <button
+                        class="add-cart"
+                        data-name="Handmade Crochet Daisy"
+                        data-price="399"
+                    >
+                        Add to cart +
+                    </button>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <!-- PRODUCT 2 -->
+
+        <article class="product-card" data-category="decor">
+
+            <div class="product-image green-product">
+
+                <button class="wishlist">♡</button>
+
+                <div class="product-emoji">
+                    <img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5cHDCso-EfhBe1Aq3tc-Y597yLHBjxgH6RjwWbIP2ZQ&s=10"
+                        alt="Crochet Sunflower"
+                    >
+                </div>
+
+            </div>
+
+            <div class="product-info">
+
+                <div class="product-category">
+                    HOME DECOR
+                </div>
+
+                <h3>Sunny Crochet Sunflower</h3>
+
+                <div class="product-bottom">
+
+                    <strong>₹549</strong>
+
+                    <button
+                        class="add-cart"
+                        data-name="Sunny Crochet Sunflower"
+                        data-price="549"
+                    >
+                        Add to cart +
+                    </button>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <!-- PRODUCT 3 -->
+
+        <article class="product-card" data-category="accessories">
+
+            <div class="product-image yellow-product">
+
+                <button class="wishlist">♡</button>
+
+                <div class="product-emoji">
+                    <img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSF7T6MqwMTnrej81rbGenLWb7Qf_48WV-ygcH0kFo6Hw&s"
+                        alt="Crochet AirPods Pouch"
+                    >
+                </div>
+
+                <span class="product-tag">
+                    NEW
+                </span>
+
+            </div>
+
+            <div class="product-info">
+
+                <div class="product-category">
+                    ACCESSORIES
+                </div>
+
+                <h3>Cozy Crochet AirPods Pouch</h3>
+
+                <div class="product-bottom">
+
+                    <strong>₹349</strong>
+
+                    <button
+                        class="add-cart"
+                        data-name="Cozy Crochet AirPods Pouch"
+                        data-price="349"
+                    >
+                        Add to cart +
+                    </button>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <!-- PRODUCT 4 -->
+
+        <article class="product-card" data-category="bags">
+
+            <div class="product-image blue-product">
+
+                <button class="wishlist">♡</button>
+
+                <div class="product-emoji">
+                    <img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk800nP6O-pgfoXHSoqhNwBMQYJGGijjAK8-Rg-MqyHw&s"
+                        alt="Purple Crochet Phone Sling Bag"
+                    >
+                </div>
+
+            </div>
+
+            <div class="product-info">
+
+                <div class="product-category">
+                    HANDMADE BAGS
+                </div>
+
+                <h3>Purple Crochet Phone Sling</h3>
+
+                <div class="product-bottom">
+
+                    <strong>₹699</strong>
+
+                    <button
+                        class="add-cart"
+                        data-name="Purple Crochet Phone Sling"
+                        data-price="699"
+                    >
+                        Add to cart +
+                    </button>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <!-- PRODUCT 5 -->
+
+        <article class="product-card" data-category="decor">
+
+            <div class="product-image peach-product">
+
+                <button class="wishlist">♡</button>
+
+                <div class="product-emoji">
+                    <img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrmP2yjrM2YQ_pf71K47BqqAQ81uZCNP3JGBAIBQlrjQ&s=10"
+                        alt="Crochet Tulip Flowers"
+                    >
+                </div>
+
+            </div>
+
+            <div class="product-info">
+
+                <div class="product-category">
+                    HOME DECOR
+                </div>
+
+                <h3>Handmade Crochet Tulips</h3>
+
+                <div class="product-bottom">
+
+                    <strong>₹599</strong>
+
+                    <button
+                        class="add-cart"
+                        data-name="Handmade Crochet Tulips"
+                        data-price="599"
+                    >
+                        Add to cart +
+                    </button>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <!-- PRODUCT 6 -->
+
+        <article class="product-card" data-category="decor">
+
+            <div class="product-image lavender-product">
+
+                <button class="wishlist">♡</button>
+
+                <div class="product-emoji">
+                    <img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEmVcF2wOLn6yopd4cu4TpnMFPUYbGbkqj078Ydo9B7Q&s"
+                        alt="Crochet Tulip Flower Pot"
+                    >
+                </div>
+
+            </div>
+
+            <div class="product-info">
+
+                <div class="product-category">
+                    HOME DECOR
+                </div>
+
+                <h3>Colorful Crochet Flower Pot</h3>
+
+                <div class="product-bottom">
+
+                    <strong>₹799</strong>
+
+                    <button
+                        class="add-cart"
+                        data-name="Colorful Crochet Flower Pot"
+                        data-price="799"
+                    >
+                        Add to cart +
+                    </button>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+    </div>
+
+
+    <div class="view-all">
+        <button id="viewAllBtn">
+            View all products →
+        </button>
+    </div>
+
+</section>
+
+
+<!-- ================= STORY ================= -->
+
+<section class="story" id="story">
+
+    <div class="story-container">
+
+        <div class="story-art">
+
+            <div class="story-circle"></div>
+
+            <div class="story-yarn">
+                <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc8N6b8al6411LzVlcuR89eTqsvRYa9Qsq7tIe1O1eXw&s=10"
+                    alt="Handmade Crochet Bunny"
+                >
+            </div>
+
+            <div class="story-note">
+                Made slowly.<br>
+                Made lovingly.
+            </div>
+
+        </div>
+
+
+        <div class="story-content">
+
+            <span class="eyebrow">
+                OUR STORY
+            </span>
+
+            <h2>
+                A little warmth
+                <br>
+                <em>in every knot.</em>
+            </h2>
+
+            <p>
+                Soft Knot started with a simple love for wool,
+                handmade things, and the feeling of giving someone
+                something made especially for them.
+            </p>
+
+            <p>
+                Every piece is carefully crafted by hand.
+                Small imperfections are part of what makes
+                each creation unique.
+            </p>
+
+            <a href="#" class="text-link">
+                Read our full story →
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= WHY US ================= -->
+
+<section class="why-us">
+
+    <div class="why-heading">
+
+        <span class="eyebrow">
+            WHY SOFT KNOT
+        </span>
+
+        <h2>
+            Handmade feels <em>different.</em>
+        </h2>
+
+    </div>
+
+
+    <div class="why-grid">
+
+        <div class="why-card">
+
+            <div class="why-icon">🧶</div>
+
+            <h3>Made by hand</h3>
+
+            <p>
+                Each product is crafted carefully instead
+                of being mass produced.
+            </p>
+
+        </div>
+
+
+        <div class="why-card">
+
+            <div class="why-icon">♡</div>
+
+            <h3>Made with love</h3>
+
+            <p>
+                We believe handmade products carry
+                a little extra warmth.
+            </p>
+
+        </div>
+
+
+        <div class="why-card">
+
+            <div class="why-icon">✦</div>
+
+            <h3>Unique pieces</h3>
+
+            <p>
+                Every knot, stitch and pattern gives
+                your piece its own character.
+            </p>
+
+        </div>
+
+
+        <div class="why-card">
+
+            <div class="why-icon">♻</div>
+
+            <h3>Thoughtful craft</h3>
+
+            <p>
+                We focus on creating useful and beautiful
+                products that feel special.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= NEWSLETTER ================= -->
+
+<section class="newsletter">
+
+    <div class="newsletter-inner">
+
+        <div>
+
+            <span class="eyebrow">
+                STAY IN THE LOOP
+            </span>
+
+            <h2>
+                Get a little <em>handmade happiness.</em>
+            </h2>
+
+            <p>
+                New collections, cozy ideas and special offers —
+                straight to your inbox.
+            </p>
+
+        </div>
+
+
+        <form id="newsletterForm">
+
+            <input
+                type="email"
+                placeholder="Your email address"
+                required
+            >
+
+            <button type="submit">
+                Join us →
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer id="contact">
+
+    <div class="footer-container">
+
+        <div class="footer-brand">
+
+            <a href="#" class="logo">
+                <span class="logo-icon">🧶</span>
+                <span>Soft<span>Knot</span></span>
+            </a>
+
+            <p>
+                Handmade wool crafts created
+                with patience, warmth and love.
+            </p>
+
+            <div class="socials">
+
+                <a href="#">Instagram</a>
+                <a href="#">Pinterest</a>
+                <a href="#">Facebook</a>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-links">
+
+            <div>
+
+                <h4>Shop</h4>
+
+                <a href="#shop">All Products</a>
+                <a href="#shop">Handmade Bags</a>
+                <a href="#shop">Home Decor</a>
+                <a href="#shop">Accessories</a>
+
+            </div>
+
+
+            <div>
+
+                <h4>About</h4>
+
+                <a href="#story">Our Story</a>
+                <a href="#">Craft Process</a>
+                <a href="#">Contact Us</a>
+                <a href="#">FAQs</a>
+
+            </div>
+
+
+            <div>
+
+                <h4>Help</h4>
+
+                <a href="#">Shipping</a>
+                <a href="#">Returns</a>
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        <span>
+            © 2026 Soft Knot. Made with ♡
+        </span>
+
+        <span>
+            Handmade • Warm • Unique
+        </span>
+
+    </div>
+
+</footer>
+
+
+<!-- ================= CART ================= -->
+
+<div class="cart-overlay" id="cartOverlay"></div>
+
+
+<aside class="cart-sidebar" id="cartSidebar">
+
+    <div class="cart-header">
+
+        <div>
+            <span class="eyebrow">YOUR BAG</span>
+            <h2>Shopping Cart</h2>
+        </div>
+
+        <button id="closeCart">
+            ✕
+        </button>
+
+    </div>
+
+
+    <div class="cart-items" id="cartItems">
+
+        <div class="empty-cart">
+            <div>🧶</div>
+
+            <h3>Your bag is empty</h3>
+
+            <p>
+                Add something handmade that
+                makes you smile.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <div class="cart-footer">
+
+        <div class="cart-total">
+
+            <span>Total</span>
+
+            <strong id="cartTotal">
+                ₹0
+            </strong>
+
+        </div>
+
+        <button class="checkout-btn" id="checkoutBtn">
+            Checkout →
+        </button>
+
+    </div>
+
+</aside>
+
+
+<!-- ================= TOAST ================= -->
+
+<div class="toast" id="toast">
+    <span>✓</span>
+    <p>Added to your cart</p>
+</div>
+
+
+<script src="sk.js"></script>
+
+</body>
+</html>
